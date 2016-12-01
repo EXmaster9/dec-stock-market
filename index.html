@@ -8,11 +8,21 @@
         font-family: 'Bungee', cursive;
       }
       table, th, td {
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
         border: 2px solid black;
         size: 400px;
       }
       h1 {
         font-size: 55px;
+      }
+      #box {
+        padding: 8px 8px 8px 8px;
+        background-color: #8FF27B;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
       }
     </style>
   </head>
@@ -20,6 +30,7 @@
     <h1>December Stock Market Progress Viewer</h1>
     <hr />
     <br />
+    <div id="box">
     <h3>
     <table>
       <tr>
@@ -61,5 +72,6 @@
       <li>If you go bankrupt, you can restart with $5,000 instead of $10,000.</li>
       <li>Tell Eli the exact price of the stock when you transact.</li>
     </ol></h5>
+    </div>
   </body>
 </html>
