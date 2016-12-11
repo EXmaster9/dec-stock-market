@@ -4,15 +4,20 @@
     <title>December Stock Market</title>
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <style>
+    
     #creators {
       background-color: #4DD2FF;
-      box-shadow: 3px 3px 5px;
-      -moz-box-shadow: 3px 3px 5px;
-      -webkit-box-shadow: 3px 3px 5px;
-      border-radius: 10px;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
+      box-shadow: inset 0px 0px 20px;
+      -moz-box-shadow: inset 0px 0px 20px;
+      -webkit-box-shadow: inset 0px 0px 20px;
       text-align: center;
+      border-radius: 3px;
+      transition: box-shadow 1s;
+    }
+    #creators:hover {
+      box-shadow: inset 0px 0px 10px;
+      -moz-box-shadow: inset 0px 0px 10px;
+      -webkit-box-shadow: inset 0px 0px 10px;
     }
       * {
         font-family: 'Bungee', cursive;
@@ -33,9 +38,16 @@
         border-radius: 10px;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
-        box-shadow: 3px 3px 5px #000000;
-        -moz-box-shadow: 3px 3px 5px #000000;
-        -webkit-box-shadow: 3px 3px 5px #000000;
+        box-shadow: -5px -5px 0px #000000;
+        -moz-box-shadow: -5px -5px 0px #000000;
+        -webkit-box-shadow: -5px -5px 0px #000000;
+        transition: box-shadow 1s;
+        animation: fadeIn 1s;
+      }
+      #box:hover {
+        box-shadow: 5px 5px 0px;
+        -moz-box-shadow: 5px 5px 0px;
+        -webkit-box-shadow: 5px 5px 0px;
       }
       #ble {
         padding: 6px 6px 6px 6px;
